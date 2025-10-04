@@ -51,6 +51,20 @@ h2 {
 h3 {
 	font-size: 2rem;
 }
+/* utilities */
+.py-10 {
+	padding-block: var(--padding-large);
+}
+.bg-secondary {
+	background-color: var(--secondary-color) !important;
+}
+.btn-primary {
+	background-color: var(--primary-color);
+	border: none;
+}
+.btn-primary:hover {
+	background-color: var(--primary-color-hover);
+}
 
 /* Header */
 .navbar-brand {
@@ -77,4 +91,10 @@ h3 {
 }
 .hero button {
 	inline-size: fit-content;
+}
+
+/* Footer */
+footer {
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
 }
