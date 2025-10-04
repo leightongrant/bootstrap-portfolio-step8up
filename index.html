@@ -33,7 +33,7 @@
 		<title>Portfolio | Leighton Grant</title>
 	</head>
 	<body>
-		<header class="shadow shadow-md position-sticky top-0">
+		<header class="shadow shadow-md position-sticky top-0 z-1">
 			<nav class="navbar navbar-expand-lg bg-body-tertiary">
 				<div class="container">
 					<a
@@ -108,15 +108,18 @@
 				</div>
 			</section>
 			<!-- About -->
-			<section class="about py-5">
+			<section class="about py-10">
 				<div class="container">
-					<div class="about-content">
-						<img
-							src="./assets/images/profile-img.webp"
-							alt="Leighton"
-							loading="eager"
-						/>
-						<div class="about-info">
+					<div class="about-content row">
+						<div class="col-12 col-md-4">
+							<img
+								src="./assets/images/profile-img.webp"
+								alt="Leighton"
+								loading="eager"
+								class="w-100 h-100 img-fluid object-fit-cover"
+							/>
+						</div>
+						<div class="about-info col-12 col-md-8">
 							<h2>
 								Hi, I am<br />
 								Leighton Grant
@@ -134,7 +137,7 @@
 				</div>
 			</section>
 			<!-- Projects -->
-			<section class="projects py-5">
+			<section class="projects py-10 bg-secondary">
 				<div class="container">
 					<h2 class="text-center">My Projects</h2>
 					<div class="project-content">
@@ -241,7 +244,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="contact">
+			<section class="contact py-10">
 				<div class="container">
 					<div class="contact-content">
 						<form>
@@ -303,10 +306,10 @@
 				</div>
 			</section>
 		</main>
-		<footer>
+		<footer class="py-5">
 			<div class="container">
 				<div class="footer-content">
-					<p><span>&copy; 2025</span> | Leighton Grant</p>
+					<div class="text-center fs-6"><span>&copy; 2025</span> <span>| Leighton Grant</span></div>
 				</div>
 			</div>
 		</footer>
