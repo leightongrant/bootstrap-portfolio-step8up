@@ -113,7 +113,10 @@ a:hover {
 .hero button {
 	inline-size: fit-content;
 }
-
+/* .card {
+	grid-template-rows: auto 1fr auto;
+	min-height: 100%;
+} */
 /* Footer */
 footer {
 	background-color: var(--primary-color);
