@@ -23,4 +23,28 @@ export const projects = [
 		repo: 'https://github.com/leightongrant/html-css-portfolio-step8up',
 		demo: 'https://leightongrant.github.io/html-css-portfolio-step8up',
 	},
+	{
+		id: 4,
+		image: './assets/images/project-4.webp',
+		title: 'Data Nest',
+		text: 'A secure backend API with nested resources and token-based authentication.',
+		repo: 'https://github.com/leightongrant/html-css-portfolio-step8up',
+		demo: 'https://leightongrant.github.io/html-css-portfolio-step8up',
+	},
+	{
+		id: 5,
+		image: './assets/images/project-5.webp',
+		title: 'Route Runner',
+		text: 'A fast, dynamic SPA router with nested views and transitions.',
+		repo: 'https://github.com/leightongrant/html-css-portfolio-step8up',
+		demo: 'https://leightongrant.github.io/html-css-portfolio-step8up',
+	},
+	{
+		id: 6,
+		image: './assets/images/project-6.webp',
+		title: 'Form Wizard',
+		text: 'Intelligent multi-step forms with validation, autosave, and accessibility features.',
+		repo: 'https://github.com/leightongrant/html-css-portfolio-step8up',
+		demo: 'https://leightongrant.github.io/html-css-portfolio-step8up',
+	},
 ]

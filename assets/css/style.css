@@ -73,6 +73,9 @@ a:hover {
 .btn-primary:hover {
 	background-color: var(--primary-color-hover);
 }
+.btn-primary:active {
+	background-color: var(--primary-color-hover) !important;
+}
 .btn-secondary {
 	background-color: var(--secondary-color) !important;
 	border: none;
@@ -113,10 +116,15 @@ a:hover {
 .hero button {
 	inline-size: fit-content;
 }
-/* .card {
-	grid-template-rows: auto 1fr auto;
-	min-height: 100%;
-} */
+/* Projects */
+.card:first-child {
+	overflow: hidden;
+}
+.card:first-child img:hover {
+	transform: scale(1.1);
+	transition: transform 0.5s linear;
+	object-fit: cover;
+}
 /* Footer */
 footer {
 	background-color: var(--primary-color);
