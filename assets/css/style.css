@@ -7,6 +7,10 @@
 	--padding-small: 1.5rem;
 	--padding-medium: 3rem;
 	--padding-large: 6rem;
+
+	--margin-small: 1.5rem;
+	--margin-medium: 3rem;
+	--margin-large: 6rem;
 }
 
 /* elements */
@@ -60,6 +64,9 @@ a:hover {
 	color: var(--primary-color-hover);
 }
 /* utilities */
+.mb-10 {
+	margin-block-end: var(--margin-large);
+}
 .py-10 {
 	padding-block: var(--padding-large);
 }
@@ -125,6 +132,13 @@ a:hover {
 	transition: transform 0.5s linear;
 	object-fit: cover;
 }
+
+/* Contact */
+.email:hover,
+.phone:hover {
+	border-bottom: 1px solid var(--primary-color-hover);
+}
+
 /* Footer */
 footer {
 	background-color: var(--primary-color);

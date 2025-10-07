@@ -10,8 +10,12 @@ $(document).ready(() => {
 		const cardTitle = $('<h5 class="card-title fs-3 fw-bold"></h5>')
 		const cardText = $('<p class="card-text my-3"></p>')
 		const cardFooter = $('<div class="card-footer d-flex justify-content-between align-items-center text-uppercase fw-semibold"></div>')
-		const repoLink = $('<a class="repo-link" target="_blank" rel="noopener">Repo &#129125;</a>')
-		const projectLink = $('<a class="project-link" target="_blank" rel="noopener">Demo &#129125;</a>')
+		const repoLink = $(
+			'<a class="repo-link d-flex align-items-center" target="_blank" rel="noopener">Repo <span class="material-icons">arrow_outward</span></a>'
+		)
+		const projectLink = $(
+			'<a class="project-link d-flex align-items-center" target="_blank" rel="noopener">Demo <span class="material-icons">arrow_outward</span></a>'
+		)
 
 		image.attr({ src: project.image, alt: project.title })
 		cardTitle.text(project.title)
