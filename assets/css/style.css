@@ -124,13 +124,15 @@ a:hover {
 	inline-size: fit-content;
 }
 /* Projects */
-.card:first-child {
+.card-img-container {
 	overflow: hidden;
+	border-radius: 0.375rem 0.375rem 0 0;
 }
-.card:first-child img:hover {
+.card-img-top {
+	transition: transform 1s ease;
+}
+.card-img-top:hover {
 	transform: scale(1.1);
-	transition: transform 0.5s linear;
-	object-fit: cover;
 }
 
 /* Contact */

@@ -4,7 +4,7 @@ $(document).ready(() => {
 	$.each(projects, (_, project) => {
 		const col = $('<div class="col"></div>')
 		const card = $('<div class="card h-100"></div>')
-		const imageDiv = $('<div></div>')
+		const imageDiv = $('<div class="card-img-container"></div>')
 		const image = $('<img class="card-img-top"/>')
 		const cardBody = $('<div class="card-body"></div>')
 		const cardTitle = $('<h5 class="card-title fs-3 fw-bold"></h5>')
