@@ -1,8 +1,10 @@
-# Bootstrap Portfolio — Leighton Grant
+# Bootstrap Portfolio
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 A small, responsive portfolio website built with Bootstrap, semantic HTML, modular CSS, and lightweight client-side JavaScript. This repository contains the source for a single-page portfolio (hero, about, projects, contact) with projects rendered from a small data module.
 
-![Site preview](assets/images/screenshot.webp)
+![Site preview](https://raw.githubusercontent.com/leightongrant/bootstrap-portfolio-step8up/main/assets/images/screenshot.webp)
 
 ## Live demo
 
@@ -23,12 +25,12 @@ A small, responsive portfolio website built with Bootstrap, semantic HTML, modul
 
 ## Tech stack
 
--   <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge" alt="HTML5" />
--   <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge" alt="CSS3" />
--   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" alt="JavaScript" />
--   <img src="https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white&style=for-the-badge" alt="Bootstrap" />
--   <img src="https://img.shields.io/badge/jQuery-0769AD?logo=jquery&logoColor=white&style=for-the-badge" alt="jQuery" />
--   <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT" />
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white&style=for-the-badge)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?logo=jquery&logoColor=white&style=for-the-badge)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
 -   HTML5
 -   CSS3 (Bootstrap 5 + custom styles)
